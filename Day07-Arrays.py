@@ -16,6 +16,7 @@ Output Format
 
 Print the elements of array  in reverse order as a single line of space-separated numbers.
 '''
+
 if __name__ == '__main__':
     n = int(input())
 
