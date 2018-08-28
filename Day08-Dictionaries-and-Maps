@@ -21,6 +21,7 @@ Output Format
 
 On a new line for each query, print Not found if the name has no corresponding entry in the phone book; otherwise, print the full name and phoneNumber in the format name=phoneNumber.
 '''
+
 n = int(input().strip())
 phonebook = {}
 for i in range(n):
