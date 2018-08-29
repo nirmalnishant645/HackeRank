@@ -12,6 +12,7 @@ Output Format
 
 Print the two lines as described above.
 '''
+
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
