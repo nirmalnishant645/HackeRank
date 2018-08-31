@@ -14,6 +14,7 @@ Output Format
 
 Output the answer as explained in the task.
 '''
+
 if __name__ == '__main__':
     n = int(input())
     
