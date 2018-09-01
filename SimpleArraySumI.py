@@ -22,6 +22,7 @@ Output Format
 
 Print the sum of the array's elements as a single integer.
 '''
+
 import os
 import sys
 
