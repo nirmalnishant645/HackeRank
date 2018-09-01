@@ -22,7 +22,9 @@ Sample Output
 Explanation
 
 The sum of the two integers a and b is computed as: 2+3=5.
-'''def solveMeFirst(a,b):
+'''
+
+def solveMeFirst(a,b):
 	# Hint: Type return a+b below
     return a+b
 
