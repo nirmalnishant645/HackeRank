@@ -17,6 +17,7 @@ Output Format
 
 For each String S<j> (where 0<=j<=T-1), print S<j>'s even-indexed characters, followed by a space, followed by S<j>'s odd-indexed characters.
 '''
+
 n = int(input())
 for i in range(n):
     s = input()
