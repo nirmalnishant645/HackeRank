@@ -19,6 +19,7 @@ Output Format
 
 Print the sum of both integers on the first line, the sum of both doubles (scaled to 1 decimal place) on the second line, and then the two concatenated strings on the third line.
 '''
+
 i = 4
 d = 4.0
 s = 'HackerRank '
