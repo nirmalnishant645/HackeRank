@@ -16,6 +16,14 @@ Constraints
 Output Format
 
 For each String S<j> (where 0<=j<=T-1), print S<j>'s even-indexed characters, followed by a space, followed by S<j>'s odd-indexed characters.
+
+Sample Input
+2
+Hacker
+Rank
+Sample Output
+Hce akr
+Rn ak
 '''
 
 n = int(input())
