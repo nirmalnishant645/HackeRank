@@ -13,6 +13,15 @@ The third line has an integer, taxPercent (the percentage of mealCost being adde
 Output Format
 
 Print The total meal cost is totalCost dollars., where totalCost is the rounded integer result of the entire bill (mealCost with added tax and tip).
+
+
+Sample Input
+12.00
+20
+8
+
+Sample Output
+The total meal cost is 15 dollars.
 '''
 meal_cost = float(input())
 tip_percent = int(input())
