@@ -15,6 +15,29 @@ No Test Case will result in overflow for correctly written code.
 Output Format
 
 Output to stdout is handled for you by the locked stub code in your editor. There are T lines of output, where each line contains the result of n^p as calculated by your Calculator class' power method.
+
+Sample Input
+4
+3 5
+2 4
+-1 -2
+-1 3
+
+Sample Output
+243
+16
+n and p should be non-negative
+n and p should be non-negative
+
+Explanation
+T = 4
+T0: 3 and 5 are positive, so power returns the result of 35, which is 243.
+
+T1: 2 and 4 are positive, so power returns the result of 24, which is 16.
+
+T2: Both inputs (-1 and -2) are negative, so power throws an exception and n and p should be non-negative is printed.
+
+T3: One of the inputs (-1) is negative, so power throws an exception and n and p should be non-negative is printed.
 '''
 
 class InputError(Exception):
