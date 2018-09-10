@@ -15,6 +15,12 @@ Your submission must contain a recursive function named factorial.
 Output Format
 
 Print a single integer denoting N!.
+
+Sample Input
+3 
+
+Sample Output
+6
 '''
 
 #!/bin/python3
