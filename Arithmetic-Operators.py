@@ -18,6 +18,7 @@ Output Format
 
 Print the three lines as explained above.
 '''
+
 if __name__ == '__main__':
     a = int(input())
     b = int(input())
