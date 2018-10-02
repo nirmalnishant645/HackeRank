@@ -1,4 +1,8 @@
 '''
+BEST SOLUTION COMING SOON
+'''
+
+'''
 Task
 Given set S. Find two integers, A and B (where A < B), from set S such that the value of A&B is the maximum possible and also less than a given integer, K. In this case, & represents the bitwise AND operator.
 
@@ -9,10 +13,15 @@ Output Format
 For each test case, print the maximum possible value of on a new line.
 
 Sample Input
-3 5 2 8 5 2 2
+3 
+5 2 
+8 5 
+2 2
 
 Sample Output
-1 4 0
+1 
+4 
+0
 '''
 
 T = int(input())
