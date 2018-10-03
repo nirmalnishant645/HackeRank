@@ -24,6 +24,7 @@ Another co-worker has prepared functions that will perform the testing and valid
 -get_array() method in class TestDataExactlyTwoDifferentMinimums has to return an array where there are exactly two different minimum values, while method get_expected_result() of this class has to return the expected minimum value index for this array.
 Take a look at the code template to see the exact implementation of functions that your colleagues already implemented.
 '''
+
 def minimum_index(seq):
     if len(seq) == 0:
         raise ValueError("Cannot get the minimum value index from an empty sequence")
