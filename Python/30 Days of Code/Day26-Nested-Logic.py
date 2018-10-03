@@ -25,6 +25,7 @@ Sample Input
 Sample Output
 45
 '''
+
 return_date = [int(x) for x in input().split(' ')]
 due_date = [int(x) for x in input().split(' ')]
 
