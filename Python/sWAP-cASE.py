@@ -24,5 +24,5 @@ Sample Output 0
 
 hACKERrANK.COM PRESENTS "pYTHONIST 2".
 '''
-line = raw_input().strip()
+line = input().strip()
 print(line.swapcase())
