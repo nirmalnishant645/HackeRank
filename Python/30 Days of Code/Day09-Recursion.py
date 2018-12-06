@@ -22,11 +22,6 @@ Sample Input
 Sample Output
 6
 '''
-
-#!/bin/python3
-
-import sys
-
 def factorial(n):
     if n is 1:
         return 1
