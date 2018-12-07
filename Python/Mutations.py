@@ -23,7 +23,7 @@ Example
 >>> string = ''.join(l)
 >>> print string
 abrackdabra
-Another approach is to slice the string and join it back.
+Another approach is to slice the string and join it back
 Example
 
 >>> string = string[:5] + "k" + string[6:]
