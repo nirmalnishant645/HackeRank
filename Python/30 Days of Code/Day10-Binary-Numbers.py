@@ -31,9 +31,6 @@ The binary representation of 5 is 101, so the maximum number of consecutive 1's 
 Sample Case 2:
 The binary representation of 13 is 1101, so the maximum number of consecutive 1's is 2.
 '''
-
-#!/bin/python3
-
 import sys
 
 def generate_binary(no):
