@@ -37,9 +37,7 @@ HK
 from itertools import combinations
 
 A, B = input().split()
-A=sorted(A)
 
-print(*A, sep="\n")
-
-for i in list(combinations(A, int(B))):
-    print(''.join(i))
+for i in range(1,int(B)+1):
+    for j in list(combinations(sorted(A), i)):
+        print(''.join(j))
