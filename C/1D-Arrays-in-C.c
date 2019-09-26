@@ -38,12 +38,15 @@ Sample Output 1
 76
 */
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
 
-    int i, n, sum=0, *arr = malloc(1000*sizeof(int)); //constraint 1<=n<=1000
+    int i, n, sum=0;
 
     scanf("%d", &n);
+    
+    int *arr = malloc(1000*sizeof(int));
     
     for(i=0;i<n;i++) {
         scanf("%d", &arr[i]);
