@@ -23,7 +23,7 @@ Sample Output
 WEDNESDAY
 '''
 
-Calendar Moduleimport calendar
+import calendar
 
 mm, dd, yyyy =  input().split()
 days = list()
