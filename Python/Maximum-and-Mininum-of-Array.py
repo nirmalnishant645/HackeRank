@@ -112,5 +112,62 @@ low = 0
 print('Tournament Method: ')
 arr_max, arr_min = getRecMinMax(low, high, arr)
 print('Minimum element is: ', arr_min)
-print('nMaximum element is: ', arr_max)
+print('Maximum element is: ', arr_max)
 
+'''
+METHOD 3 (Compare in Pairs) 
+If n is odd then initialize min and max as first element. 
+If n is even then initialize min and max as minimum and maximum of the first two elements respectively. 
+For rest of the elements, pick them in pairs and compare their 
+maximum and minimum with max and min respectively. 
+
+Time Complexity: O(n)
+'''
+
+# Python3 program of above implementation
+def getPairMinMax(arr):
+    n = len(arr)
+     
+    # If array has even number of elements then
+    # initialize the first two elements as minimum
+    # and maximum
+    if(n % 2 == 0):
+        mx = max(arr[0], arr[1])
+        mn = min(arr[0], arr[1])
+         
+        # set the starting index for loop
+        i = 2
+         
+    # If array has odd number of elements then
+    # initialize the first element as minimum
+    # and maximum
+    else:
+        mx = mn = arr[0]
+         
+        # set the starting index for loop
+        i = 1
+         
+    # In the while loop, pick elements in pair and
+    # compare the pair with max and min so far
+    while(i < n - 1):
+        if arr[i] < arr[i + 1]:
+            mx = max(mx, arr[i + 1])
+            mn = min(mn, arr[i])
+        else:
+            mx = max(mx, arr[i])
+            mn = min(mn, arr[i + 1])
+             
+        # Increment the index by 2 as two
+        # elements are processed in loop
+        i += 2
+     
+    return (mx, mn)
+     
+# Driver Code
+if __name__ =='__main__':
+     
+    arr = [1000, 11, 445, 1, 330, 3000]
+    mx, mn = getPairMinMax(arr)
+    print("Compare in Pairs Method: ")
+    print("Minimum element is: ", mn)
+    print("Maximum element is: ", mx)
