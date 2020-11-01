@@ -171,3 +171,19 @@ if __name__ =='__main__':
     print("Compare in Pairs Method: ")
     print("Minimum element is: ", mn)
     print("Maximum element is: ", mx)
+
+# Without using any function, printing two different values
+arr = [1000, 11, 445, 1, 330, 3000]
+if arr[0] > arr[1]:
+    max, min = arr[0], arr[1]
+else:
+    max, min = arr[1], arr[0]
+
+for i in range(2, len(arr)):
+    if arr[i] > max:
+        max = arr[i]
+    elif arr[i] < min:
+        min = arr[i]
+print('Simple Linear Search without function: ')
+print("Minimun element is: ", min)
+print("Maximum element is: ", max)
